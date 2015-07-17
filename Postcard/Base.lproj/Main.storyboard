@@ -67,6 +67,15 @@
                                     <rect key="frame" x="23" y="80" width="329" height="58"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bk-LH-BnM">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="29" y="186" width="205" height="38"/>
+                                </variation>
+                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AlbertEinsteinStamp.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="1iS-f1-O4f">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
@@ -108,6 +117,7 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Qmv-7t-oDh"/>
+                                <exclude reference="7Bk-LH-BnM"/>
                                 <exclude reference="1iS-f1-O4f"/>
                                 <exclude reference="P5M-ZK-JFq"/>
                                 <exclude reference="HcM-HC-XJq"/>
@@ -117,6 +127,7 @@
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Qmv-7t-oDh"/>
+                                <include reference="7Bk-LH-BnM"/>
                                 <include reference="1iS-f1-O4f"/>
                                 <include reference="P5M-ZK-JFq"/>
                                 <include reference="HcM-HC-XJq"/>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextfield" destination="P5M-ZK-JFq" id="0nN-0k-TD2"/>
                         <outlet property="mailButton" destination="s7f-pY-KTO" id="pGd-b4-0mF"/>
                         <outlet property="messageLabel" destination="Qmv-7t-oDh" id="V4b-pc-Nvp"/>
+                        <outlet property="nameLabel" destination="7Bk-LH-BnM" id="WYU-zr-jIy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
